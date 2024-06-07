@@ -1,5 +1,8 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #dffbff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 header{
@@ -17,10 +20,10 @@ nav {
     text-align: center;
     max-width: 95%;
     align-items: center;
+    justify-content: center;
 }
 
 header nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -36,20 +39,31 @@ header nav ul li a {
     font-weight: bold;
 }
 
-main {
-    padding: 20px;
+.apresentacao-produto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 
-section {
-    background-color: white;
-    margin-bottom: 20px;
+.box-descricao{
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #677bd4;
+    border-radius: 20px;
+}
+
+main {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 80%;
 }
 
 section h2 {
-    color: #2a9d8f;
+    color: #182258;
 }
 
 section img {
@@ -58,14 +72,14 @@ section img {
     display: block;
     margin: 10px 0;
 }
-
+.objetivo-projeto{
+    display: flex;
+    flex-direction: column;
+    
+}
 footer {
     background-color: #264653;
     color: white;
     text-align: center;
     padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
 }
