@@ -50,6 +50,7 @@ header nav ul li a {
     padding: 20px;
     background-color: #677bd4;
     border-radius: 20px;
+    width: 80%;
 }
 
 main {
@@ -60,6 +61,8 @@ main {
     background-color: white;
     border-radius: 20px;
     max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 section h2 {
@@ -82,4 +85,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+.apresentacao-produto img{
+    width: 400px;
+    border-radius: 20px;
 }
