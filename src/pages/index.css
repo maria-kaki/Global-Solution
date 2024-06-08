@@ -85,7 +85,40 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    justify-content: center;
+    align-items: center;
 }
+
+footer h2{
+    color: rgb(231, 231, 255);
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+.contatos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contatos p{
+    color: white;
+}
+
+.redes-sociais{
+    margin: 10px;
+}
+
+.redes-sociais a {
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .apresentacao-produto img{
     width: 400px;
     border-radius: 20px;
