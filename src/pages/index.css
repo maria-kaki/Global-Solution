@@ -50,6 +50,19 @@ header nav ul li a:hover{
     margin: 10px;
 }
 
+.problema-a-resolver, .objetivo-projeto,
+.beneficios-projeto, .ajuda-dia-a-dia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.problema-a-resolver img{
+    width: 60%;
+    max-height: 500px;
+}
+
 .box-descricao{
     padding: 20px;
     background-color: #677bd4;
@@ -74,7 +87,7 @@ section h2 {
 }
 
 section img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin: 10px 0;
