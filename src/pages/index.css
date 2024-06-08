@@ -75,9 +75,20 @@ section img {
     display: block;
     margin: 10px 0;
 }
+
 .objetivo-projeto{
     display: flex;
     flex-direction: column;
+}
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    width: 100%;
+    height: 2px;
 }
 
 footer {
