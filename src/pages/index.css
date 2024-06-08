@@ -80,47 +80,6 @@ section img {
     flex-direction: column;
 }
 
-.publico-alvo {
-    width: 500px;
-    margin: 0 auto;
-}
-
-.carrossel {
-    position: relative; 
-    overflow: hidden;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.slide.inicial {
-    opacity: 1; 
-    z-index: 1;
-}
-
-.esquerda,
-.direita {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-.esquerda {
-    left: 0;
-}
-
-.direita {
-    right: 0;
-}
-
 footer {
     background-color: #264653;
     color: white;
