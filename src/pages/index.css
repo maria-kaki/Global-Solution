@@ -172,7 +172,7 @@ footer img{
 }
 
 @media screen and (max-width: 768px){
-    .section{
+    body{
         width: 100%;
     }
 
