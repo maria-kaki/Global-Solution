@@ -39,6 +39,10 @@ header nav ul li a {
     font-weight: bold;
 }
 
+header nav ul li a:hover{
+    color: rgb(24, 33, 77);
+}
+
 .apresentacao-produto{
     display: flex;
     align-items: center;
@@ -75,9 +79,27 @@ section img {
     display: block;
     margin: 10px 0;
 }
+
 .objetivo-projeto{
     display: flex;
     flex-direction: column;
+}
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.linha{
+    width: 100%;
+    height: 2px;
+}
+
+.publico-alvo button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 footer {
